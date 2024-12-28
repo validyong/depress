@@ -5,6 +5,8 @@ import markdoc from '@astrojs/markdoc';
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://validyong.github.io',
+	base: 'depress',
 	i18n: {
 		locales: ['en', 'ja'],
 		defaultLocale: 'en',
